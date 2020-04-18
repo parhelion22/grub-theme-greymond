@@ -6,4 +6,4 @@ GRUB theme based on the classic Raleigh theme.
 
 # License
 
-This project is licensed under the [GPLv2 License](/LICENSE).
+This project is licensed under the [GNU General Public License v3.0](/LICENSE).
