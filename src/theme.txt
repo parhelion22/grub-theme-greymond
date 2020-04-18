@@ -1,0 +1,58 @@
+# Global Property
+title-text: ""
+title-font: "Fixed 10"
+title-color: "#FFFFFF"
+message-font: "Fixed 10"
+message-color: "#000000"
+message-bg-color: "#FFFFFF"
+desktop-color: "#4B6983"
+terminal-box: "TerminalWindow_*.png"
+terminal-font: "Fixed 10"
+
+	+ boot_menu {
+		visible = true
+		menu_pixmap_style = "BootMenuBackground_*.png"
+		#item_font = "Fixed 10"
+		item_color = "#AAAAAA"
+		#selected_item_font = "DejaVu Sans Regular 10"
+		selected_item_color = "#55FF55"
+		#selected_item_pixmap_style= "select_bkg_*.png"
+		item_height = 16
+		item_padding = 0
+		item_spacing = 0
+		icon_width = 0
+		icon_height = 0
+		item_icon_space = 2
+		left = 13+640
+		width = 614
+		top = 94+300
+		height = 256
+		scrollbar = false
+		#scrollbar_width = 17
+		#scrollbar_frame = "sb_frame_*.png"
+		#scrollbar_thumb = "sb_thumb_*.png"
+	}
+
+	+ progress_bar {
+		visible = true
+		id = "__timeout__"
+		left = 13+640
+		width = 614
+		top = 441+300
+		height = 25
+		show_text = false
+		font = "Sans Regular 10"
+		text_color = "#000000"
+		text = ""
+		bar_style = "progress_bar_*.png"
+		highlight_style = "progress_highlight_*.png"
+	}
+
+	+ image {
+		file = "BootMenuWindow.png"
+		left = 640
+		width = 640
+		top = 0+300
+		height = 480
+	}
+
