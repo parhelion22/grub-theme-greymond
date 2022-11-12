@@ -1,6 +1,6 @@
 # Greyleigh GRUB Theme
 
-![Screenshot](https://github.com/parhelion22/grub-theme-greyleigh/blob/master/Screenshot.png)
+![Screenshot](https://github.com/parhelion22/grub-theme-greyleigh/blob/main/Screenshot.png)
 
 GRUB theme based on the classic Raleigh theme. 
 
